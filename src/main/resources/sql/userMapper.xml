@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.chen.mapper.UserMapper" >
+
+	<insert id="insert" >
+		insert into user(user_name,pass_word,cellphone) values(#{userName},#{passWord},#{cellphone})
+	</insert>
+	
+	<update id="update" >
+		update user set pass_word=#{passWord},cellphone=#{cellphone} where user_name=#{userName}
+	</update>
+	
+	<delete id="delete" >
+		delete from user where user_name=#{userName}
+	</delete>
+	
+	<select id="getAll" resultType="com.chen.pojo.User" >
+		select * from user
+	</select>
+	
+	<select id="findUser" resultType="com.chen.pojo.User" >
+		select * from user where user_name=#{userName} and pass_word=#{passWord}
+	</select>
+	
+	<select id="getUserByName" resultType="com.chen.pojo.User" >
+		select * from user where user_name like #{userName}
+	</select>
+	
+</mapper>
