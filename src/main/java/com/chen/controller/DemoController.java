@@ -1,15 +1,15 @@
 package com.chen.controller;
 
-import java.util.Map;
-
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import java.util.Map;
+
 @Controller
 public class DemoController {
 
-	// 从 application.properties 中读取配置，如取不到默认值为HelloShanhy
+	// 从 application.properties 中读取配置，如取不到默认值为HelloShanhy1111
 	@Value("${application.hello:Hello Angel}")
 	private String hello;
 
