@@ -9,7 +9,7 @@ import java.util.Map;
 @Controller
 public class DemoController {
 
-	// 从 application.properties 中读取配置，如取不到默认值为HelloShanhy1111
+	// 从 application.properties 中读取配置，如取不到默认值为HelloShanhy
 	@Value("${application.hello:Hello Angel}")
 	private String hello;
 
