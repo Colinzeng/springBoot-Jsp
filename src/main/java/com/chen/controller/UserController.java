@@ -27,7 +27,7 @@ public class UserController {
 		user.setCellphone(request.getParameter("phone"));
 		int result = userServiceImpl.insert(user);
 		if (result == 1) {
-			request.setAttribute("success", "注册成功");
+			request.setAttribute("success", "注册成功111");
 			request.getSession().setAttribute("username",user.getUserName());
 			return "redirect:/";
 		} else {
