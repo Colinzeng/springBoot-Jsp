@@ -1,13 +1,12 @@
 package com.chen.controller;
 
-import javax.servlet.http.HttpServletRequest;
-
+import com.chen.pojo.User;
+import com.chen.service.UserServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.chen.pojo.User;
-import com.chen.service.UserServiceImpl;
+import javax.servlet.http.HttpServletRequest;
 
 @Controller
 @RequestMapping("/userInfo")
@@ -28,7 +27,7 @@ public class UserController {
 		user.setCellphone(request.getParameter("phone"));
 		int result = userServiceImpl.insert(user);
 		if (result == 1) {
-			request.setAttribute("success", "注册成功");
+			request.setAttribute("success", "注册成功!");
 			request.getSession().setAttribute("username",user.getUserName());
 			return "redirect:/";
 		} else {
