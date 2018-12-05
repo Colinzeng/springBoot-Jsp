@@ -1,0 +1,6 @@
+
+gsquid:CommentedOutCodeLinea"<This block of commented-out lines of code should be removed.(ÄÛÌŽøÿÿÿÿ
+^squid:S00112V"FDefine and throw a dedicated exception instead of using a generic one.(„ƒ®þ
+%squid:RedundantThrowsDeclarationCheckV"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(„ƒ®þ
+O
+squid:S1068"9Replace this use of System.out or System.err by a logger.(±´Ú‡

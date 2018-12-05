@@ -1,0 +1,36 @@
+
+ljavascript:S3403âF"JRemove this "!==" check; it will always be true. Did you mean to use "!="?(’ü¯İùÿÿÿÿ
+njavascript:S2589„"LRefactor this code so that this expression does not always evaluate to true.(¯äÖÌûÿÿÿÿ
+ijavascript:S2589Œ"LRefactor this code so that this expression does not always evaluate to true.(µØÃ†
+njavascript:S2589âF"LRefactor this code so that this expression does not always evaluate to true.(’ü¯İùÿÿÿÿ
+ijavascript:S2589¯G"LRefactor this code so that this expression does not always evaluate to true.(Ÿ¿Ã½
+bjavascript:S2137"ADo not use "undefined" to declare a parameter - use another name.(Ÿ©Ë©øÿÿÿÿ
+cjavascript:S2137Õ"ADo not use "undefined" to declare a parameter - use another name.(Ÿ©Ë©øÿÿÿÿ
+qjavascript:S3523‹"OReview this "Function" call and make sure its arguments are properly validated.(Çôî¼ùÿÿÿÿ
+Kjavascript:EmptyBlockÏ")Either remove or fill this block of code.(Ô‰íÌ
+hjavascript:UnusedVariableµC"=Remove the declaration of the unused 'tweenerIndex' variable.(ê¸İûÿÿÿÿ
+cjavascript:UnusedVariable®"8Remove the declaration of the unused 'related' variable.(ÁÏÌıÿÿÿÿ
+]javascript:UnusedVariableú'"2Remove the declaration of the unused 'j' variable.(‡×‹½şÿÿÿÿ
+hjavascript:UnusedVariable¼"=Remove the declaration of the unused 'rendsWithNot' variable.(àï‘şÿÿÿÿ
+[javascript:UnusedVariableº"5Remove the declaration of the unused 'rnot' variable.(Ì¶ú‘
+Zjavascript:UnusedVariable‘1"4Remove the declaration of the unused 'len' variable.(½ÇÀÛ
+^javascript:UnusedVariableb"4Remove the declaration of the unused 'ret' variable.(Å¢–Ÿûÿÿÿÿ
+_javascript:UnusedVariableŠ"9Remove the declaration of the unused 'selector' variable.(—‡åÈ
+Qjavascript:S1656Ã+"/Remove or correct this useless self-assignment.(…ÍÏğıÿÿÿÿ
+Yjavascript:S1854Ö"7Remove this useless assignment to local variable "name"(ÅàÉ¿ıÿÿÿÿ
+Xjavascript:S1854Ü"<Remove this useless assignment to local variable "container"(ÇÎH
+Rjavascript:S1854Ü"6Remove this useless assignment to local variable "div"(ÇÎH
+Rjavascript:S1854Ü"6Remove this useless assignment to local variable "tds"(ÇÎH
+Xjavascript:S1854Ü"<Remove this useless assignment to local variable "marginDiv"(ÇÎH
+Xjavascript:S1854Š";Remove this useless assignment to local variable "selector"(—‡åÈ
+Vjavascript:S1854ú'"4Remove this useless assignment to local variable "j"(‡×‹½şÿÿÿÿ
+Xjavascript:S1854ñ.";Remove this useless assignment to local variable "fragment"(•²ßÖ
+Ujavascript:S1854ñ."8Remove this useless assignment to local variable "first"(•²ßÖ
+[javascript:S1854Š1">Remove this useless assignment to local variable "srcElements"(¯ùşå
+\javascript:S1854Š1"?Remove this useless assignment to local variable "destElements"(¯ùşå
+Yjavascript:S1854å1"7Remove this useless assignment to local variable "elem"(«ÂÑ¬ÿÿÿÿÿ
+Xjavascript:S1854å1"6Remove this useless assignment to local variable "div"(«ÂÑ¬ÿÿÿÿÿ
+Yjavascript:S1854å1"7Remove this useless assignment to local variable "safe"(«ÂÑ¬ÿÿÿÿÿ
+Hjavascript:S1264Ò"+Replace this "for" loop with a "while" loop(…¯Ë­
+Hjavascript:S1264â"+Replace this "for" loop with a "while" loop(…¯Ë­
+Hjavascript:S1264£?"+Replace this "for" loop with a "while" loop(³ê

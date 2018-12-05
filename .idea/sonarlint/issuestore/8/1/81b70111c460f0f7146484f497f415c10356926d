@@ -1,0 +1,9 @@
+
+³%squid:RedundantThrowsDeclarationCheck/"}Remove the declaration of thrown exception 'java.io.UnsupportedEncodingException', as it cannot be thrown from method's body.(±¡šûÿÿÿÿ
+®%squid:RedundantThrowsDeclarationCheckb"}Remove the declaration of thrown exception 'java.io.UnsupportedEncodingException', as it cannot be thrown from method's body.(ª±«ƒ
+`squid:S1192"IDefine a constant instead of duplicating this literal "username" 3 times.(øæØ
+ksquid:S1192K"TDefine a constant instead of duplicating this literal "redirect:/cart/list" 5 times.(‘Ø¨¶
+dsquid:S1192J"HDefine a constant instead of duplicating this literal "success" 3 times.(†æµşÿÿÿÿ
+gsquid:CommentedOutCodeLine5"<This block of commented-out lines of code should be removed.(‹Ìì¾øÿÿÿÿ
+gsquid:CommentedOutCodeLineg"<This block of commented-out lines of code should be removed.(öìºèøÿÿÿÿ
+Zsquid:S1155G">Use isEmpty() to check whether the collection is empty or not.(ˆòÓ€ÿÿÿÿÿ

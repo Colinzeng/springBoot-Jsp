@@ -1,0 +1,6 @@
+
+³%squid:RedundantThrowsDeclarationCheckz"}Remove the declaration of thrown exception 'java.io.UnsupportedEncodingException', as it cannot be thrown from method's body.(Ï³É‡øÿÿÿÿ
+dsquid:S1192O"HDefine a constant instead of duplicating this literal "success" 3 times.(¯§Ùóùÿÿÿÿ
+usquid:S1192P"YDefine a constant instead of duplicating this literal "redirect:/adminUser/list" 6 times.(÷ºÍœüÿÿÿÿ
+]squid:S1192!"FDefine a constant instead of duplicating this literal "error" 4 times.(Ÿ¦‰·
+gsquid:CommentedOutCodeLine}"<This block of commented-out lines of code should be removed.(ú†Ø·þÿÿÿÿ
