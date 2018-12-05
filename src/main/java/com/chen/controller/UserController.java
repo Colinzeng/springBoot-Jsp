@@ -31,7 +31,7 @@ public class UserController {
 			request.getSession().setAttribute("username",user.getUserName());
 			return "redirect:/";
 		} else {
-			request.setAttribute("error", "●︿●用户名已存在，请重新注册！");
+			request.setAttribute("error", "●︿●用户名已存在，请重新注册1111！");
 			return "register";
 		}
 	}
