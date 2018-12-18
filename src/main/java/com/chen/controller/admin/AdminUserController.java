@@ -1,16 +1,14 @@
 package com.chen.controller.admin;
 
-import java.io.UnsupportedEncodingException;
-import java.util.List;
-
-import javax.servlet.http.HttpServletRequest;
-
+import com.chen.pojo.User;
+import com.chen.service.UserServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.chen.pojo.User;
-import com.chen.service.UserServiceImpl;
+import javax.servlet.http.HttpServletRequest;
+import java.io.UnsupportedEncodingException;
+import java.util.List;
 
 @Controller
 @RequestMapping("/adminUser")

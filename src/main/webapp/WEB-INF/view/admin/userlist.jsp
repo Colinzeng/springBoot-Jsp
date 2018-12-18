@@ -1,4 +1,5 @@
 <%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%@	page isELIgnored="false" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 
 <%
@@ -102,7 +103,7 @@ caption {
 					<td>操作</td>
 				</tr>
 				<c:forEach var="u" items="${listuser}" varStatus="status" begin="0"
-					end="${listuser.size() }">
+					end="2">
 					<tr>
 						<td class="chb"><input type="checkbox" name="chb" value="${u.userName}"></td>
 						<td>${u.userName}</td>

@@ -33,7 +33,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     </div>
     <div>
     <h3><a href="/">奇酷手机</a></h3>
-    <span><a href="good/det?id=10104">奇酷青春版</a> <a href="/">奇酷旗舰版</a></span>
+    <span><a href=" /det?id=10104">奇酷青春版</a> <a href="/">奇酷旗舰版</a></span>
     </div>
     <div>
     <h3><a href="/">大神手机</a></h3>
